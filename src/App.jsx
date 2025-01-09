@@ -1,4 +1,4 @@
-import WeatherUI from '../components/WeatherUI'
+import WeatherUI from './components/WeatherUI'
 
 const App = () => {
   return (
