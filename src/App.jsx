@@ -1,8 +1,10 @@
-import React from 'react'
+import WeatherUI from '../components/WeatherUI'
 
 const App = () => {
   return (
-    <div className="app">Weather App</div>
+    <div className="app">
+      <WeatherUI />
+    </div>
   )
 }
 
