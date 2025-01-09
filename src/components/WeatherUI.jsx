@@ -59,7 +59,7 @@ const App = () => {
         <div style={{ marginTop: "20px" }}>
           <h2>{weather.name}</h2>
           <p>
-            <strong>Current Temperature:</strong> {weather.temperature} {weather.units}°
+            <strong>Current Temperature:</strong> {weather.temperature} °{weather.units}
           </p>
         </div>
       )}
